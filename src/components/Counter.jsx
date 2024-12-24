@@ -13,14 +13,14 @@ const Counter = () => {
             <h1>Counter</h1>
             <h2>{count}</h2>
             <IncrementDecrementButtons 
-                count = {count}
-                setCount = {setCount}
-                initialValue = {initialValue}
-                maxValue = {maxValue}
+                count={count}
+                setCount={setCount}
+                initialValue={initialValue}
+                maxValue={maxValue}
             />
             <ResetButton 
-            setCount = {setCount}
-            initialValue = {initialValue}
+                setCount={setCount}
+                initialValue={initialValue}
             />
             {count === maxValue && <p>Has alcanzado el límite</p>}
                   
