@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 const IncrementDecrementButtons = ({ count, setCount, initialValue, maxValue}) => {
     const increment = () => {
