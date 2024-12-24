@@ -1,18 +1,25 @@
 import { useState } from "react";
 
+const initialValue = 0;
+const maxValue = 10;
+
 const Counter = () => {
-    const [count, setCount] = useState(0);  
+    const [count, setCount] = useState(initialValue);  
     
     const increment = () => {
-        setCount(count + 1)
+        if(count < maxValue) {
+            setCount(count + 1)
+        }
     }
 
     const decrement = () => {
-        setCount(count - 1)
+        if (count > initialValue) {
+            setCount(count - 1)
+        }
     }
 
     const reset = () => {
-        setCount(0)
+        setCount(initialValue)
     }
 
     return (
@@ -22,6 +29,7 @@ const Counter = () => {
             <button onClick={increment}>Incrementar</button>
             <button onClick={decrement}>Decrementar</button>
             <button onClick={reset}>Reiniciar</button>
+            
         </div>
     )
 }
