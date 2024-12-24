@@ -22,6 +22,7 @@ const Counter = () => {
             setCount = {setCount}
             initialValue = {initialValue}
             />
+            {count === maxValue && <p>Has alcanzado el límite</p>}
                   
         </div>
     )
