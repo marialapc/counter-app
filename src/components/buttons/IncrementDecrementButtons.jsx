@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './buttons.scss'
 
 const IncrementDecrementButtons = ({ count, setCount, initialValue, maxValue}) => {
     const increment = () => {
@@ -17,9 +18,9 @@ const IncrementDecrementButtons = ({ count, setCount, initialValue, maxValue}) =
         })
     };
     return (
-        <div>
-             <button onClick={increment} disabled={count >= maxValue}>Incrementar</button>
-             <button onClick={decrement} disabled={count <= initialValue}>Decrementar</button>
+        <div className='button__wrapper'>
+             <button className='button' onClick={increment} disabled={count >= maxValue}>Incrementar</button>
+             <button className='button' onClick={decrement} disabled={count <= initialValue}>Decrementar</button>
         </div>
     )
 }

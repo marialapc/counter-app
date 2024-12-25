@@ -1,6 +1,7 @@
 import { useState } from "react";
-import IncrementDecrementButtons from './IncrementDecrementButtons'
-import ResetButton from './ResetButton'
+import IncrementDecrementButtons from '../buttons/IncrementDecrementButtons'
+import ResetButton from '../buttons/ResetButton'
+import './counter.scss'
 
 const initialValue = 0;
 const maxValue = 10;
@@ -9,7 +10,7 @@ const Counter = () => {
     const [count, setCount] = useState(initialValue);  
 
     return (
-        <div>
+        <div className="counter">
             <h1>Counter</h1>
             <h2>{count}</h2>
             <IncrementDecrementButtons 
@@ -22,8 +23,7 @@ const Counter = () => {
                 setCount={setCount}
                 initialValue={initialValue}
             />
-            {count === maxValue && <p>Has alcanzado el límite</p>}
-                  
+            {count === maxValue && <p>Has alcanzado el límite</p>}             
         </div>
     )
 }

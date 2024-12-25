@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  .main {
+    height: 100%;
+  }
+  
+  :root {
+    --black: #3b3b3b;
+    --white: #fafafa;
+    --green: #50bcaa;
+    --lightGreen: #60dcc9;
+    --grey: #eeeeee;
+    --fontPrimary: "staatliches"
+  }
+
+  @font-face {
+    font-family: "staatliches";
+    src: url("./assets/fonts/Staatliches.ttf") format("truetype");
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    background-color: var(--white);
+    font-size: 16px;
+    font-family: var(--fontPrimary);
+  }
