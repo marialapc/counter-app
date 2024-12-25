@@ -2,8 +2,6 @@
 
 ## Contador creado con React. 
 
-<<<<<<< HEAD
-=======
 Incrementa, decrementa y reiniciar el valor del contador. 
 
 ### Funcionalidades y comportamiento:
@@ -34,7 +32,7 @@ Los botones de incrementar y decrementar están habilitados o deshabilitados en 
 3. **Ejecutar la aplicación**:
    
    ```bash
-   npm start
+   npm run dev
 
 Esto abrirá la aplicación en tu navegador en http://localhost:3000.
 
@@ -54,5 +52,4 @@ María Lopez: [@marialapc](https://github.com/marialapc)
 
 
    
->>>>>>> c1c13232da56b0276e21c719d7fdc22993cf8166
 
