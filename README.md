@@ -12,6 +12,11 @@ Incrementa, decrementa y reiniciar el valor del contador.
 **Interactividad**:  
 Los botones de incrementar y decrementar están habilitados o deshabilitados en función del valor del contador, asegurando que no se pueda incrementar más allá del límite superior ni decrementar por debajo de 0. 
 
+## 📺 Preview
+
+<img width="1454" alt="Captura de pantalla 2024-12-26 a las 9 09 16" src="https://github.com/user-attachments/assets/187df046-d43f-42f4-9564-7f5f75c22b11" />
+
+
 ## 💻 Instalación
 
 ### Requisitos previos
@@ -35,6 +40,12 @@ Los botones de incrementar y decrementar están habilitados o deshabilitados en 
    npm run dev
 
 Esto abrirá la aplicación en tu navegador en http://localhost:3000.
+
+## 🛠️ Herramientas y Librerías:
+
+- **React**: Framework basado en componentes para construir interfaces de usuario escalables y de alto rendimiento.
+- **Vite**: Herramienta de construcción rápida para aplicaciones web.
+- **Sass**: Preprocesador CSS para un manejo más eficiente de los estilos.
 
 
 ## 🚀 Mejoras y futuras optimizaciones  
