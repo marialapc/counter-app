@@ -11,8 +11,8 @@ const Counter = () => {
 
     return (
         <div className="counter">
-            <h1>Counter</h1>
-            <h2>{count}</h2>
+            <h1 className="counter__title">Contador</h1>
+            <h2 className="counter__count">{count}</h2>
             <IncrementDecrementButtons 
                 count={count}
                 setCount={setCount}
@@ -23,7 +23,7 @@ const Counter = () => {
                 setCount={setCount}
                 initialValue={initialValue}
             />
-            {count === maxValue && <p>Has alcanzado el límite</p>}             
+            {count === maxValue && <p className="counter__message">Has alcanzado el límite</p>}             
         </div>
     )
 }

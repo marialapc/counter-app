@@ -5,7 +5,7 @@ const ResetButton = ({ setCount, initialValue}) => {
     }
     
     return (
-        <button className='button' onClick={reset}>Reiniciar</button> 
+        <button className='button button--reset' onClick={reset}>Reiniciar</button> 
     )
 }
 
