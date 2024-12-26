@@ -9,4 +9,9 @@ const ResetButton = ({ setCount, initialValue}) => {
     )
 }
 
+ResetButton.propTypes = {
+    setCount: PropTypes.func.isRequired,
+    initialValue: PropTypes.number.isRequired,
+};
+
 export default ResetButton;

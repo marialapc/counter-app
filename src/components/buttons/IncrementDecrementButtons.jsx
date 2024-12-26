@@ -19,8 +19,8 @@ const IncrementDecrementButtons = ({ count, setCount, initialValue, maxValue}) =
     };
     return (
         <div className='button__wrapper'>
-             <button className='button' onClick={increment} disabled={count >= maxValue}>Incrementar</button>
              <button className='button' onClick={decrement} disabled={count <= initialValue}>Decrementar</button>
+             <button className='button' onClick={increment} disabled={count >= maxValue}>Incrementar</button>
         </div>
     )
 }
